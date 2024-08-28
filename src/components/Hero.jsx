@@ -23,7 +23,7 @@ const Hero = () => {
               <motion.span variants={container(0.3)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-md tracking-tight text-transparent lg:text-2xl">
                 Your Friendly Neighborhood Developer
               </motion.span>
-              <motion.p variants={container(0.6)} initial="hidden" animate="visible" className="my-2 max-w-xl py-3 font-extralight text-sm  tracking-tighter lg:text-justify text-center lg:text-base">
+              <motion.p variants={container(0.6)} initial="hidden" animate="visible" className="my-2 max-w-xl py-3 font-extralight text-sm  tracking-tighter text-justify lg:text-base">
                 I'm just starting my journey into the world of web development, learning the basics of creating simple, responsive websites. While I'm new to coding, I'm eager to learn and grow my skills every day. I'm exploring HTML, CSS, and JavaScript, and I'm excited to see where this path will take me. I'm passionate about learning and ready to take on new challenges as I continue to develop my abilities.
               </motion.p>
             </div>
