@@ -18,9 +18,9 @@ const Hero = () => {
           {/* Text Content */}
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start px-10">
-              <motion.h1 variants={container(0)} initial="hidden" animate="visible" className="text-7xl font-bold tracking-normal lg:mt-16 lg:text-9xl">Irfan</motion.h1>
-              <motion.h1 variants={container(0)} initial="hidden" animate="visible" className="text-2xl font-thin tracking-normal lg:text-5xl pb-20">Abdul Hameed</motion.h1>
-              <motion.span variants={container(0.3)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-md tracking-tight text-transparent lg:text-2xl">
+              <motion.h1 variants={container(0.3)} initial="hidden" animate="visible" className="text-7xl font-bold tracking-normal lg:mt-16 lg:text-9xl">Irfan</motion.h1>
+              <motion.h1 variants={container(0.3)} initial="hidden" animate="visible" className="text-2xl font-thin tracking-normal lg:text-5xl pb-20">Abdul Hameed</motion.h1>
+              <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-md tracking-tight text-transparent lg:text-2xl">
                 Your Friendly Neighborhood Developer
               </motion.span>
               <motion.p variants={container(0.6)} initial="hidden" animate="visible" className="my-2 max-w-xl py-3 font-extralight text-sm  tracking-tighter text-justify lg:text-base">
