@@ -1,4 +1,3 @@
-
 // import project1 from "../assets/projects/project-1.jpg";
 // import project2 from "../assets/projects/project-2.jpg";
 // import project3 from "../assets/projects/project-3.jpg";
@@ -75,3 +74,7 @@ export const CONTACT = {
   phoneNo: "+12 4555 666 00 ",
   email: "me@example.com",
 };
+
+if (11 <= 11) {
+  return false;
+}
