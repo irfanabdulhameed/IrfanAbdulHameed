@@ -1,4 +1,4 @@
-import profilPic from "../assets/me2.png";
+import profilPic from "../assets/me2.svg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -37,23 +37,34 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-md tracking-tight text-transparent lg:text-2xl"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-md tracking-tight text-transparent lg:text-2xl text-center lg:text-justify"
             >
-              Your Friendly Neighborhood Developer
+              Your Friendly Neighborhood{" "}
+              <span className="text-3xl lg:text-3xl">
+                <br />
+                Designer/Developer
+              </span>
             </motion.span>
             <motion.p
               variants={container(0.6)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-3 font-extralight text-sm  tracking-tighter text-justify lg:text-base"
+              className="my-2 max-w-xl py-3 font-extralight text-sm  tracking-tight text-justify lg:text-base"
             >
-              I'm just starting my journey into the world of web development,
+              {/* I'm just starting my journey into the world of web development,
               learning the basics of creating simple, responsive websites. While
               I'm new to coding, I'm eager to learn and grow my skills every
               day. I'm exploring HTML, CSS, and JavaScript, and I'm excited to
               see where this path will take me. I'm passionate about learning
               and ready to take on new challenges as I continue to develop my
-              abilities.
+              abilities. */}
+              With a strong background in graphic design using Photoshop, After
+              Effects, Illustrator, and Figma, I'm now diving into web
+              development with ReactJS. My design skills help me create
+              eye-catching, user-friendly websites, and I'm excited to learn
+              HTML, CSS, JavaScript, and ReactJS to bring those designs to life.
+              I’m looking forward to blending my design know-how with coding and
+              tackling new creative challenges!
             </motion.p>
           </div>
         </div>

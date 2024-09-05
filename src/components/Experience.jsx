@@ -3,17 +3,25 @@ import { motion } from "framer-motion";
 const exp = [
   {
     year: "2024 - Present",
+    role: "Media Co-Lead",
+    company: "TedXFarookCollege",
+    description: `I designed the UI/UX for the TedXFarookCollege website, ensuring a user-friendly experience, and developed a cohesive visual identity across platforms. I'm now working on Season 2 social media assets to boost engagement and promote events.`,
+    technologies: ["Photoshop", "Figma", "illustrator"],
+  },
+  {
+    year: "2024 - Present",
     role: "Co-Lead",
-    company: "TinkerHub",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    company: "TinkerHubFC",
+    description: `
+I organized the "Kattan & Introduction" event to engage new members and gather insights into their tech interests. I developed a dynamic poller to collect student data and coordinated hands-on workshops based on the gathered interests to provide practical skill development.`,
     technologies: ["Event Management", "Event Planning"],
   },
   {
     year: "2023 - 2024",
     role: "Media Lead",
-    company: "TinkerHub",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["Photoshop", "Premiere Pro", "illustrator", "Figma"],
+    company: "TinkerHubFC",
+    description: `I created a successful reel with After Effects to boost community visibility and designed posters to effectively promote events and initiatives.`,
+    technologies: ["Photoshop", "Premiere Pro", "After Effects", "Figma"],
   },
 ];
 
@@ -26,7 +34,7 @@ const Experience = () => {
         transition={{ duration: 1.2 }}
         className="my-20 text-4xl text-center"
       >
-        Experience
+        Volunteer / Experience
       </motion.h1>
       <div>
         {exp.map((experience, index) => (

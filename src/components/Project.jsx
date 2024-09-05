@@ -1,28 +1,60 @@
-import projectPic1 from "../assets/todolistmockup.png";
-import projectPic2 from "../assets/weathermockup.png";
-import projectPic3 from "../assets/eclecticamockup.png";
+// import projectPic1 from "../assets/todolistmockup.png";
+// import projectPic2 from "../assets/weathermockup.png";
+import projectPic3 from "../assets/eclecticamockup.svg";
+import am1 from "../assets/am1.svg";
+import km1 from "../assets/km1.svg";
+import th1 from "../assets/th1.svg";
+import fc1 from "../assets/fc1.svg"
 import { motion } from "framer-motion";
 
 const pro = [
   {
-    title: "To-Do List Application",
-    image: projectPic1,
+    title: "Arabian Majlis",
+    image: am1,
     description:
-      "An application for managing tasks and projects, with features such as basic task creation and deletion.",
+      "This work was done for Arabian Majlis on the occasion of India's 78th Independence Day",
     technologies: ["Flutter", "Hive"],
   },
   {
-    title: "Weather Application",
-    image: projectPic2,
+    title: "Kmart, Dubai",
+    image: km1,
     description:
-      "An minimalistic application that shows weather of your current location using API",
-    technologies: ["Flutter", "API"],
+      "This work was done for Kmart Group of Companies on the Pre-Inauguration (Coming Soon) of their supermarket",
+    technologies: ["Flutter", "Hive"],
   },
+  {
+    title: "TinkerHub Foundation",
+    image: th1,
+    description:
+      "This work was done for TinkerHub Foundation as a part of Tinkerspace media intern selection",
+    technologies: ["Flutter", "Hive"],
+  },
+  // {
+  //   title: "To-Do List Application",
+  //   image: projectPic1,
+  //   description:
+  //     "An application for managing tasks and projects, with features such as basic task creation and deletion.",
+  //   technologies: ["Flutter", "Hive"],
+  // },
+  // {
+  //   title: "Weather Application",
+  //   image: projectPic2,
+  //   description:
+  //     "An minimalistic application that shows weather of your current location using API",
+  //   technologies: ["Flutter", "API"],
+  // },
   {
     title: "ecletica",
     image: projectPic3,
     description:
       "An Inter College Management Fest held at Farook College (Autonomous), Kozhikode",
+    technologies: ["Photoshop", "Figma"],
+  },
+  {
+    title: "Palliative, FC",
+    image: fc1,
+    description:
+      "1-Day to go Poster for the event named 'Sparsham' by Palliative Initiative, Farook College ",
     technologies: ["Photoshop", "Figma"],
   },
   // {
@@ -43,7 +75,7 @@ const Project = () => {
         transition={{ duration: 1.2 }}
         className="my-20 text-center text-4xl"
       >
-        Projects
+        Projects / Works
       </motion.h1>
       <div>
         {pro.map((project, index) => (

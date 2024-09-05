@@ -1,4 +1,4 @@
-import setupPic from "../assets/setup.jpg";
+import setupPic from "../assets/setup.svg";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -34,13 +34,22 @@ const About = () => {
             className="flex justify-center lg:justify-start"
           >
             <p className="my-2 max-w-xl py-16 text-justify font-thin lg:text-md">
-              I’m a final-year Computer Science student at Farook College, just
+              {/* I’m a final-year Computer Science student at Farook College, just
               beginning my journey into web development with a focus on learning
               tools like React and Tailwind CSS. While I’m new to coding, I
               bring advanced skills in graphic design, where I have significant
               experience creating compelling visuals and designs. Explore my
               portfolio to see how I’m combining my graphic design expertise
-              with my growing development skills to create unique projects.
+              with my growing development skills to create unique projects. */}
+              I’m a final-year Computer Science student at Farook College,
+              diving into web development with a focus on React and Tailwind
+              CSS. While I'm new to coding, I have advanced skills in graphic
+              design, including tools like Adobe Photoshop, After Effects,
+              Illustrator, and Figma. With significant experience creating
+              compelling visuals, I’m excited to combine my design expertise
+              with my growing development skills to craft unique, visually
+              appealing web projects. Explore my portfolio to see this blend of
+              design and development in action.
             </p>
           </motion.div>
         </div>
