@@ -75,7 +75,9 @@ const Contact = () => {
               ></path>
             </svg>
             <span className="text font-medium">
-              <a href={Resume} download="Resume">My Resume</a>
+              <a href={Resume} download="Resume">
+                My Resume
+              </a>
             </span>
           </button>
           <div className="bodydrop"></div>
@@ -362,11 +364,17 @@ const Contact = () => {
             </svg>
           </span>
         </div>
-        <div className="text-center tracking-tighter">
+        <div className="text-center tracking-tight">
           <p className="my-4 font-extralight">{det.address}</p>
           <p className="my-4 font-extralight">{det.phoneNo}</p>
-          <a href="#" className="border-b border-neutral-600 font-extralight">
-            {det.email}
+          <a
+            href="mailto:irfan.abdulhaameed85@gmail.com"
+            className="border-b border-neutral-600 font-extralight"
+          >
+            <p className="font-thin">
+              Mail me here: &nbsp;&nbsp;
+              <span> {det.email}</span>
+            </p>
           </a>
         </div>
       </motion.div>
