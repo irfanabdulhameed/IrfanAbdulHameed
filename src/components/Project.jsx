@@ -1,10 +1,10 @@
 // import projectPic1 from "../assets/todolistmockup.png";
 // import projectPic2 from "../assets/weathermockup.png";
-import projectPic3 from "../assets/eclecticamockup.svg";
-import am1 from "../assets/am1.svg";
-import km1 from "../assets/km1.svg";
-import th1 from "../assets/th1.svg";
-import fc1 from "../assets/fc1.svg"
+import projectPic3 from "../assets/eclecticamockup.png";
+import am1 from "../assets/am1.png";
+import km1 from "../assets/km1.png";
+import th1 from "../assets/th1.png";
+import fc1 from "../assets/fc1.png";
 import { motion } from "framer-motion";
 
 const pro = [

@@ -39,7 +39,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-md tracking-tight text-transparent lg:text-2xl text-center lg:text-justify"
             >
-              Your Friendly Neighborhood{" "}
+              Your Friendly Neighbourhood{" "}
               <span className="text-3xl lg:text-3xl">
                 <br />
                 Designer/Developer
