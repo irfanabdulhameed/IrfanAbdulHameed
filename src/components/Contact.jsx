@@ -81,7 +81,7 @@ const Contact = () => {
             </span>
           </button>
           <div className="bodydrop"></div>
-          <span aria-hidden="true" className="particle-pen">
+          {/* <span  aria-hidden="true" className="particle-pen">
             <svg
               className="particle"
               viewBox="0 0 15 15"
@@ -362,7 +362,7 @@ const Contact = () => {
                 stroke-linejoin="round"
               ></path>
             </svg>
-          </span>
+          </span> */}
         </div>
         <div className="text-center tracking-tight">
           <p className="my-4 font-extralight">{det.address}</p>
