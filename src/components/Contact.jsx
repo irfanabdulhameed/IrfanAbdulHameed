@@ -42,7 +42,7 @@ const Contact = () => {
           </a>
         </button> */}
         <div className="sp flex justify-center  pb-5">
-          <button className="sparkle-button">
+          <button id="resume-button" className="sparkle-button">
             <span className="spark"></span>
 
             <span className="backdrop"></span>

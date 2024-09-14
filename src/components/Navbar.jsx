@@ -5,13 +5,18 @@ import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareUpwork } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 1;
 const Navbar = () => {
+  const navigate = useNavigate();
+  const goToMain = () => {
+    navigate("/MainPage");
+  };
   return (
-    <nav className="mb-5 flex items-center lg:justify-between justify-center py-5 px-8">
+    <nav className="flex items-center lg:justify-between justify-center py-5 px-8">
       <div className="hidden flex-shrink=0 lg:flex items-center">
-        <a href="#">
+        <a href="/">
           <img className="mx-5 w-20" src={logo} />
         </a>
       </div>

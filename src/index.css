@@ -251,7 +251,7 @@
   --spark: 1.8s;
 }
 @layer utilities {
-  button {
+  #resume-button {
     --cut: 0.1em;
     --active: 0;
     --bg: radial-gradient(
@@ -289,7 +289,7 @@
     scale: calc(1 + (var(--active) * 0.1));
   }
 
-  button:active {
+  #resume-button:active {
     scale: 1;
   }
 
@@ -308,7 +308,7 @@
     transition: color var(--transition);
   }
 
-  button:is(:hover, :focus-visible) path {
+  #resume-button:is(:hover, :focus-visible) path {
     animation-name: bounce;
   }
 
@@ -336,7 +336,7 @@
     --base: 30%;
   }
 
-  button:before {
+  #resume-button:before {
     content: "";
     position: absolute;
     inset: -0.25em;
@@ -402,7 +402,7 @@
   }
 
   @supports (selector(:has(:is(+ *)))) {
-    body:has(button:is(:hover, :focus-visible)) {
+    body:has(#resume-button:is(:hover, :focus-visible)) {
       --active: 1;
       --play-state: running;
     }
@@ -411,7 +411,7 @@
     }
   }
 
-  button:is(:hover, :focus-visible) ~ :is(.bodydrop, .particle-pen) {
+  #resume-button:is(:hover, :focus-visible) ~ :is(.bodydrop, .particle-pen) {
     --active: 1;
     --play-state: runnin;
   }
@@ -423,12 +423,12 @@
     z-index: -1;
   } */
 
-  button:is(:hover, :focus-visible) {
+  #resume-button:is(:hover, :focus-visible) {
     --active: 1;
     --play-state: running;
   }
 
-  .sparkle-button {
+  .sparkle-#resume-button {
     position: relative;
   }
 
@@ -489,7 +489,7 @@
     transition: background var(--transition);
   }
 
-  button svg {
+  #resume-button svg {
     inline-size: 1.25em;
     translate: -25% -5%;
   }

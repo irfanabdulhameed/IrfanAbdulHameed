@@ -1,4 +1,4 @@
-import profilPic from "../assets/me2.svg";
+import profilPic from "../assets/me2.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -78,7 +78,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.8 }}
               src={profilPic}
               alt="Irfan"
-              className="w-auto h-auto max-w-full max-h-full "
+              className="w-auto h-auto max-w- max-h-full "
             />
           </div>
         </div>
