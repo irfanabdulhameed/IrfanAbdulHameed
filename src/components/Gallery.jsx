@@ -128,7 +128,7 @@ const Gallery = () => {
           })}
         </div>
         <div className="border-b border-neutral-600 pb-14 text-center">
-          <p>
+          <p className="text-xs lg:text-md">
             - &nbsp; More Works in my{" "}
             <span className=" text-neutral-300 underline">
               <a href="https://www.upwork.com/freelancers/~01aa30810d60a4cd38">

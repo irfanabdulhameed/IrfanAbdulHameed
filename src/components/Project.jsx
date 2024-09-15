@@ -72,6 +72,7 @@ const Project = () => {
   const navigate = useNavigate();
   const goToWorks = () => {
     navigate("/Works");
+    window.scrollTo(0, 0);
   };
   return (
     <div className="border-b border-neutral-700 pb-4">
@@ -79,6 +80,7 @@ const Project = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -50 }}
         transition={{ duration: 1.2 }}
+        viewport={{ once: true }}
         className="my-20 text-center text-4xl"
       >
         Projects / Works
@@ -90,6 +92,7 @@ const Project = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
               className="w-full lg:w-52"
             >
               <img
@@ -104,6 +107,7 @@ const Project = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-4 font-semibold">{project.title}</h6>
@@ -124,6 +128,7 @@ const Project = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 0.3 }}
+        viewport={{ once: true }}
         className="flex items-center text-center place-content-center mb-20 mt-20 "
       >
         <button

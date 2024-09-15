@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div className="border-b border-neutral-700 pb-32">
       <motion.h1
-        whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
@@ -15,9 +15,10 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
             className="flex item justify-center"
           >
             <img
@@ -31,6 +32,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
             className="flex justify-center lg:justify-start"
           >
             <p className="my-2 max-w-xl py-16 text-justify font-thin lg:text-md">

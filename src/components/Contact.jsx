@@ -32,6 +32,7 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
       >
         <h1 className="my-10 text-center text-4xl">
           Get in touch with<span className="text-neutral-500"> Me</span>
