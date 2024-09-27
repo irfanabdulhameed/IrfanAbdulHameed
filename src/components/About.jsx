@@ -54,7 +54,7 @@ const About = () => {
               design and development in action.
               <br />
               <span className="text-neutral-300 lg:text-sm text-xs">
-                *The image here does not represent my actual desktop.
+                <sup>*</sup>The image here does not represent my actual desktop.
               </span>
             </p>
           </motion.div>
