@@ -15,21 +15,21 @@ const pro = [
     image: am1,
     description:
       "This work was done for Arabian Majlis on the occasion of India's 78th Independence Day",
-    technologies: ["Flutter", "Hive"],
+    technologies: ["Graphic Design", "Photoshop"],
   },
   {
     title: "Kmart, Dubai",
     image: km1,
     description:
       "This work was done for Kmart Group of Companies on the Pre-Inauguration (Coming Soon) of their supermarket",
-    technologies: ["Flutter", "Hive"],
+    technologies: ["Graphic Design", "Photoshop"],
   },
   {
     title: "TinkerHub Foundation",
     image: th1,
     description:
       "This work was done for TinkerHub Foundation as a part of Tinkerspace media intern selection",
-    technologies: ["Flutter", "Hive"],
+    technologies: ["Graphic Design", "Photoshop"],
   },
   // {
   //   title: "To-Do List Application",
@@ -50,14 +50,14 @@ const pro = [
     image: projectPic3,
     description:
       "An Inter College Management Fest held at Farook College (Autonomous), Kozhikode",
-    technologies: ["Photoshop", "Figma"],
+    technologies: ["Graphic Design", "Figma", "Photoshop"],
   },
   {
     title: "Palliative, FC",
     image: fc1,
     description:
       "1-Day to go Poster for the event named 'Sparsham' by Palliative Initiative, Farook College ",
-    technologies: ["Photoshop", "Figma"],
+    technologies: ["Graphic Design", "Photoshop"],
   },
   // {
   //   title: "Blogging Platform",

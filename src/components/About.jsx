@@ -52,6 +52,10 @@ const About = () => {
               with my growing development skills to craft unique, visually
               appealing web projects. Explore my portfolio to see this blend of
               design and development in action.
+              <br />
+              <span className="text-neutral-300 lg:text-sm text-xs">
+                *The image here does not represent my actual desktop.
+              </span>
             </p>
           </motion.div>
         </div>
