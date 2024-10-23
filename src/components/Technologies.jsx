@@ -3,7 +3,7 @@ import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobeaftereffects } from "react-icons/si";
 import { SiAdobeillustrator } from "react-icons/si";
 import { IoLogoFigma } from "react-icons/io5";
-import { SiFlutter } from "react-icons/si";
+// import { SiFlutter } from "react-icons/si";
 import { motion } from "framer-motion";
 import { SiAdobepremierepro } from "react-icons/si";
 
@@ -85,14 +85,14 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 shadow-[0_0_100px_rgba(118,195,251,0.25)]"
         >
-          <SiFlutter className="text-6xl text-blue-300" />
+          {/* <SiFlutter className="text-6xl text-blue-300" />
         </motion.div>
         <motion.div
           variants={iconAnimation(1.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 shadow-[0_0_100px_rgba(118,195,251,0.4)]"
-        >
+        > */}
           <SiAdobepremierepro className="text-6xl text-blue-700" />
         </motion.div>
       </motion.div>

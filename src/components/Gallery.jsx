@@ -15,6 +15,11 @@ import Img13 from "../assets/Images/13-min.jpg";
 import Img14 from "../assets/Images/14-min.jpg";
 import Img15 from "../assets/Images/15-min.jpg";
 import Img16 from "../assets/Images/16-min.jpg";
+import Img17 from "../assets/Images/17-min.jpg";
+import Img18 from "../assets/Images/18-min.jpg";
+import Img19 from "../assets/Images/19-min.jpg";
+import Img20 from "../assets/Images/20-min.jpg";
+
 import { motion } from "framer-motion";
 import Contact from "./Contact";
 
@@ -89,8 +94,24 @@ let data = [
     imgSrc: Img15,
   },
   {
-    id: 15,
+    id: 16,
     imgSrc: Img16,
+  },
+  {
+    id: 17,
+    imgSrc: Img17,
+  },
+  {
+    id: 18,
+    imgSrc: Img18,
+  },
+  {
+    id: 19,
+    imgSrc: Img19,
+  },
+  {
+    id: 20,
+    imgSrc: Img20,
   },
 ];
 
