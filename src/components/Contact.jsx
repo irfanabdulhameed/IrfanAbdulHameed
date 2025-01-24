@@ -115,7 +115,7 @@ const Contact = () => {
               ></path>
             </svg>
             <span className="text font-medium">
-              <a href={Portfolio} download="Resume">
+              <a href={Portfolio} download="Portfolio">
                 My Portfolio
               </a>
             </span>
