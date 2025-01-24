@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
-import Gallery from "../components/Gallery";
+// import Gallery from "../components/Gallery";
+import PinterestGallery from "../components/Pinterest";
 
 const container = (delay) => ({
   hidden: { y: -100, opacity: 0 },
@@ -28,7 +29,8 @@ const Works = () => {
             <Navbar />
           </motion.div>
           <div>
-            <Gallery />
+            {/* <Gallery /> */}
+            <PinterestGallery />
           </div>
         </div>
       </div>
