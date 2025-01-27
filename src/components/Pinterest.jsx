@@ -31,6 +31,7 @@ import Img28 from "../assets/Images/28-min.jpg";
 import Img29 from "../assets/Images/29-min.jpg";
 import Img30 from "../assets/Images/30-min.jpg";
 import Img31 from "../assets/Images/31-min.jpg";
+import Img32 from "../assets/Images/32-min.jpg";
 import { motion } from "framer-motion";
 import Contact from "./Contact";
 
@@ -170,6 +171,10 @@ const images = [
   {
     id: 31,
     src: Img31,
+  },
+  {
+    id: 32,
+    src: Img32,
   },
 ];
 
