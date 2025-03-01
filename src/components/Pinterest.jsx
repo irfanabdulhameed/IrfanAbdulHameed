@@ -32,21 +32,18 @@ import Img29 from "../assets/Images/29-min.jpg";
 import Img30 from "../assets/Images/30-min.jpg";
 import Img31 from "../assets/Images/31-min.jpg";
 import Img32 from "../assets/Images/32-min.jpg";
+import Img33 from "../assets/Images/33-min.jpg";
+import Img34 from "../assets/Images/34-min.jpg";
+import Img35 from "../assets/Images/35-min.jpg";
+import Img36 from "../assets/Images/36-min.jpg";
+import Img37 from "../assets/Images/37-min.jpg";
+import Img38 from "../assets/Images/38-min.jpg";
+import Img39 from "../assets/Images/39-min.jpg";
+import Img40 from "../assets/Images/40-min.jpg";
+
 import { motion } from "framer-motion";
 import Contact from "./Contact";
 
-// const images = [
-//   { id: 1, src: "/placeholder.svg?height=300&width=300", alt: "Image 1" },
-//   { id: 2, src: "/placeholder.svg?height=400&width=300", alt: "Image 2" },
-//   { id: 3, src: "/placeholder.svg?height=350&width=300", alt: "Image 3" },
-//   { id: 4, src: "/placeholder.svg?height=280&width=300", alt: "Image 4" },
-//   { id: 5, src: "/placeholder.svg?height=320&width=300", alt: "Image 5" },
-//   { id: 6, src: "/placeholder.svg?height=380&width=300", alt: "Image 6" },
-//   { id: 7, src: "/placeholder.svg?height=300&width=300", alt: "Image 7" },
-//   { id: 8, src: "/placeholder.svg?height=340&width=300", alt: "Image 8" },
-//   { id: 9, src: "/placeholder.svg?height=360&width=300", alt: "Image 9" },
-//   { id: 10, src: "/placeholder.svg?height=310&width=300", alt: "Image 10" },
-// ];
 const images = [
   {
     id: 1,
@@ -175,6 +172,38 @@ const images = [
   {
     id: 32,
     src: Img32,
+  },
+  {
+    id: 33,
+    src: Img33,
+  },
+  {
+    id: 34,
+    src: Img34,
+  },
+  {
+    id: 35,
+    src: Img35,
+  },
+  {
+    id: 36,
+    src: Img36,
+  },
+  {
+    id: 37,
+    src: Img37,
+  },
+  {
+    id: 38,
+    src: Img38,
+  },
+  {
+    id: 39,
+    src: Img39,
+  },
+  {
+    id: 40,
+    src: Img40,
   },
 ];
 

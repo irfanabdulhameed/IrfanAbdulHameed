@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/IrfansResume.pdf";
 import Portfolio from "../assets/portfolio.pdf";
 
 const RANDOM = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
